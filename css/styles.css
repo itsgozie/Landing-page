@@ -6,9 +6,40 @@
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.hero-sec-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 2rem;
+    border-radius: 10px;
+    color: #fff;
+    background: #3882f6;
+    border-style: none;
+}
 
 
-nav, .hero,
+
+nav,
+.hero,
 footer {
     color: #fff;
     background: #1f2937;
@@ -18,6 +49,7 @@ footer {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
+
 }
 
 section {
@@ -41,13 +73,118 @@ a {
     display: flex;
 }
 
-.hero-text, .hero-img {
-    flex:1;
+.hero-text,
+.hero-img {
+    flex: 1;
 }
 
 .hero-img {
-  width: 100%;       /* fill the flex space */
-  object-fit: cover; /* don't stretch or squish */
-  min-width: 0;      /* prevent image from overflowing */
-  height:200px;
+    width: 100%;
+    /* fill the flex space */
+    object-fit: cover;
+    /* don't stretch or squish */
+    min-width: 0;
+    /* prevent image from overflowing */
+    height: 200px;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.hero-wrapper {
+    gap: 1.563rem;
+}
+
+section.feature {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.feature-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #6a6a6b;
+    gap: 10px;
+
+}
+
+.square-ph {
+    width: 150px;
+    height: 150px;
+    border: solid 4px #3882f6;
+    border-radius: 10px;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 70px;
+}
+
+section.testimonial {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px 16.625rem;
+
+}
+
+.test-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 2.25rem;
+    font-weight: 300;
+    font-style: italic;
+
+
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-right: 2.5rem;
+}
+
+.cta {
+    background: #3882f6;
+    border-radius:5px;
+    color: #fff;
+    padding: 40px 100px;
+    justify-content: space-between;
+}
+
+.cta-text {
+    color: #dbd9d9;
+}
+
+.banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.btn-secondary {
+    border: solid 2px #fff;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer span {
+    padding: 20px;
 }
